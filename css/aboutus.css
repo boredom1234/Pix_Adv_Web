@@ -82,11 +82,12 @@ nav ul li a:hover{
     font-size: 15px;
  }
 
-.row{
-    display: flex;
-    margin-left: 130px;
-    margin-right: 20px;
-    width: 100%;
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center; /* Added line */
+  height: fit-content; /* Optional, for vertical centering */
 }
 
 .heading{
